@@ -145,6 +145,15 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
+.u-padding-small {
+  padding: 1rem !important; }
+
+.u-padding-medium {
+  padding: 3rem !important; }
+
+.u-padding-big {
+  padding: 5rem !important; }
+
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
   display: inline-block;
@@ -223,23 +232,17 @@ body {
 
 .updates {
   height: 100%;
-  padding: 3rem;
+  padding: 2rem;
   background-color: #3867d6;
   position: relative;
-  border-radius: 1rem; }
-  .updates:hover {
-    border: 0.7rem solid #4b7bec;
-    z-index: 200;
-    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2); }
+  border-radius: 1rem;
+  transition: all .3s ease-in-out; }
   .updates__title {
     padding: 1rem;
     color: #3867d6;
     background-color: #f7f7f7;
     font-weight: 700;
     font-size: 2rem; }
-    .updates__title:hover {
-      color: #f7f7f7;
-      background-color: #3867d6; }
   .updates__list {
     padding: 2rem;
     list-style-type: none; }
@@ -255,6 +258,78 @@ body {
         font-weight: 400;
         color: #eee;
         text-decoration: none; }
+
+.events-box {
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 25rem;
+  border-radius: .5rem;
+  box-shadow: 0 5px 10px #1d1c1c;
+  color: white;
+  z-index: 1;
+  transition: all .4s ease;
+  color: #d8d0d0; }
+  .events-box h3 {
+    transform: translateY(200%);
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    margin-top: 1.7rem; }
+  .events-box p {
+    display: none;
+    letter-spacing: 2px;
+    line-height: 27px;
+    text-align: center; }
+  .events-box__img--1 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-7.png") no-repeat center;
+    background-size: cover; }
+  .events-box__img--2 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-4.png") no-repeat center;
+    background-size: cover; }
+  .events-box__img--3 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-5.png") no-repeat center;
+    background-size: cover; }
+  .events-box__img--4 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-6.png") no-repeat center;
+    background-size: cover; }
+  .events-box__img--5 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-7.png") no-repeat center;
+    background-size: cover; }
+  .events-box__img--6 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-8.png") no-repeat center;
+    background-size: cover; }
+  .events-box__img--7 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-5.png") no-repeat center;
+    background-size: cover; }
+  .events-box__img--8 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-6.png") no-repeat center;
+    background-size: cover; }
+  .events-box:hover {
+    transform: scale(1.2);
+    color: #e2dede;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    box-shadow: 0 5px 7px black;
+    font-weight: bolder; }
+  .events-box:hover h3 {
+    transform: translateY(0%); }
+  .events-box:hover p {
+    display: block; }
+  .events-box:hover .events-box__img--1 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../img/interface-7.png") no-repeat center; }
+  .events-box:hover .events-box__img--2 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../img/interface-4.png") no-repeat center; }
+  .events-box:hover .events-box__img--3 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../img/interface-5.png") no-repeat center; }
+  .events-box:hover .events-box__img--4 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../img/interface-6.png") no-repeat center; }
+  .events-box:hover .events-box__img--5 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../img/interface-7.png") no-repeat center; }
+  .events-box:hover .events-box__img--6 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../img/interface-8.png") no-repeat center; }
+  .events-box:hover .events-box__img--7 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../img/interface-5.png") no-repeat center; }
+  .events-box:hover .events-box__img--8 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../img/interface-6.png") no-repeat center; }
 
 .row {
   max-width: 114rem;
@@ -391,7 +466,8 @@ body {
   @media only screen and (max-width: 37.5em) {
     .header {
       border: none;
-      border-radius: 0; } }
+      border-radius: 0;
+      clip-path: none; } }
   .header__logo-box {
     position: absolute;
     top: .75rem;
@@ -408,3 +484,80 @@ body {
     left: 50%;
     transform: translate(-50%, -60%);
     text-align: center; }
+
+.section-about {
+  background-color: #f7f7f7;
+  padding: 25rem 0;
+  margin-top: -20vh; }
+
+.section-events {
+  padding: 20rem 0;
+  background-image: linear-gradient(to right bottom, rgba(69, 170, 242, 0.8), rgba(247, 247, 247, 0.8)), url(../img/interface-2.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: -10rem;
+  clip-path: polygon(50% 10%, 80% 5%, 100% 0, 100% 100%, 80% 95%, 50% 90%, 20% 95%, 0 100%, 0 0, 20% 5%); }
+  @media only screen and (max-width: 56.25em) {
+    .section-events {
+      padding: 10rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .section-events {
+      padding: 0rem;
+      clip-path: none;
+      margin-top: -40rem; } }
+  .section-events > .row {
+    padding: 3rem; }
+    @media only screen and (max-width: 37.5em) {
+      .section-events > .row {
+        padding: 1rem; } }
+  @media only screen and (max-width: 56.25em) {
+    .section-events__row--1 {
+      margin-top: 25rem;
+      margin-bottom: 0rem !important; } }
+  @media only screen and (max-width: 56.25em) {
+    .section-events__row--2 {
+      margin-bottom: 25rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .section-events__row--2 {
+      padding-bottom: 4.33rem !important; } }
+
+.section-tours {
+  background-color: #f7f7f7;
+  margin-top: -10rem;
+  padding: 25rem 0 15rem 0; }
+  @media only screen and (max-width: 56.25em) {
+    .section-tours {
+      padding: 20rem 0 10rem 0; } }
+
+.section-stories {
+  padding: 15rem 0;
+  position: relative; }
+  @media only screen and (max-width: 56.25em) {
+    .section-stories {
+      padding: 10rem; } }
+
+.section-book {
+  padding: 15rem 0;
+  background-image: linear-gradient(to right bottom, #45aaf2, #3867d6); }
+
+.book {
+  height: 50rem;
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 50%, transparent 50%), url(../img/nat-10.jpg);
+  background-size: cover;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  border-radius: 3px; }
+  @media only screen and (max-width: 75em) {
+    .book {
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 65%, transparent 65%), url(../img/nat-10.jpg); } }
+  @media only screen and (max-width: 75em) {
+    .book {
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 100%), url(../img/nat-10.jpg); } }
+  .book__form {
+    padding: 6rem;
+    width: 50%; }
+    @media only screen and (max-width: 75em) {
+      .book__form {
+        width: 65%; } }
+    @media only screen and (max-width: 56.25em) {
+      .book__form {
+        width: 100%; } }
