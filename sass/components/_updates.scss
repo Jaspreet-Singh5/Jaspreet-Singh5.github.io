@@ -1,15 +1,10 @@
 .updates {
     height: 100%;
-    padding: 3rem;
+    padding: 2rem;
     background-color: $color-primary-dark;
     position: relative;
     border-radius: 1rem;
-
-    &:hover {
-        border: .7rem solid $color-primary;
-        z-index: 200;
-        box-shadow: 1rem 1rem 1rem rgba($color-black, .2);
-    }
+    transition: all .3s ease-in-out;    
 
     &__title {
         padding: 1rem;
@@ -17,11 +12,6 @@
         background-color: $color-grey-light-1;
         font-weight: 700;
         font-size: 2rem;
-
-        &:hover {
-            color: $color-grey-light-1;
-            background-color: $color-primary-dark;
-        }
     }
 
     &__list {

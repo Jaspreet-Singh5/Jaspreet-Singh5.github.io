@@ -13,6 +13,7 @@
     @include respond(phone) {
         border: none;
         border-radius: 0;
+        clip-path: none;
     }
 
     &__logo-box {
