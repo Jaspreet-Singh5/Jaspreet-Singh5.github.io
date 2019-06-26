@@ -275,11 +275,18 @@ body {
     font-size: 2.5rem;
     letter-spacing: 3px;
     margin-top: 1.7rem; }
+    @media only screen and (max-width: 37.5em) {
+      .events-box h3 {
+        transform: translateY(110%); } }
   .events-box p {
     display: none;
     letter-spacing: 2px;
     line-height: 27px;
     text-align: center; }
+    @media only screen and (max-width: 37.5em) {
+      .events-box p {
+        display: block;
+        transform: translateY(100%); } }
   .events-box__img--1 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-7.png") no-repeat center;
     background-size: cover; }
