@@ -7,7 +7,7 @@
     box-shadow: 0 5px 10px rgb(29, 28, 28);
     color: white;
     z-index: 1;
-    transition: all .4s ease;
+    transition: all .4s ease-in-out;
     color: rgb(216, 208, 208);
 
     & h3 {
@@ -28,57 +28,59 @@
         text-align: center;
 
         @include respond(phone) {
-            display: block;
             transform: translateY(100%);
         }
     }
 
     &__img--1 {
-        background: linear-gradient( to right bottom, rgba($color-black,.8), rgba($color-black,.8),), url('../../img/interface-7.png') no-repeat center;
+        background: linear-gradient( to right bottom, rgba($color-black,.8), rgba($color-black,.8)), url('../../img/interface-7.png') no-repeat center;
         background-size: cover;
     }
 
     &__img--2 {
-        background: linear-gradient( to right bottom, rgba($color-black,.8), rgba($color-black,.8),), url('../../img/interface-4.png') no-repeat center;
+        background: linear-gradient( to right bottom, rgba($color-black,.8), rgba($color-black,.8)), url('../../img/interface-4.png') no-repeat center;
         background-size: cover;
     }
 
     &__img--3 {
-        background: linear-gradient( to right bottom, rgba($color-black,.8), rgba($color-black,.8),), url('../../img/interface-5.png') no-repeat center;
+        background: linear-gradient( to right bottom, rgba($color-black,.8), rgba($color-black,.8)), url('../../img/interface-5.png') no-repeat center;
         background-size: cover;
     }
 
     &__img--4 {
-        background: linear-gradient( to right bottom, rgba($color-black,.8), rgba($color-black,.8),), url('../../img/interface-6.png') no-repeat center;
+        background: linear-gradient( to right bottom, rgba($color-black,.8), rgba($color-black,.8)), url('../../img/interface-6.png') no-repeat center;
         background-size: cover;
     }
 
     &__img--5 {
-        background: linear-gradient( to right bottom, rgba($color-black,.8), rgba($color-black,.8),), url('../../img/interface-7.png') no-repeat center;
+        background: linear-gradient( to right bottom, rgba($color-black,.8), rgba($color-black,.8)), url('../../img/interface-7.png') no-repeat center;
         background-size: cover;
     }
 
     &__img--6 {
-        background: linear-gradient( to right bottom, rgba($color-black,.8), rgba($color-black,.8),), url('../../img/interface-8.png') no-repeat center;
+        background: linear-gradient( to right bottom, rgba($color-black,.8), rgba($color-black,.8)), url('../../img/interface-8.png') no-repeat center;
         background-size: cover;
     }
 
     &__img--7 {
-        background: linear-gradient( to right bottom, rgba($color-black,.8), rgba($color-black,.8),), url('../../img/interface-5.png') no-repeat center;
+        background: linear-gradient( to right bottom, rgba($color-black,.8), rgba($color-black,.8)), url('../../img/interface-5.png') no-repeat center;
         background-size: cover;
     }
 
     &__img--8 {
-        background: linear-gradient( to right bottom, rgba($color-black,.8), rgba($color-black,.8),), url('../../img/interface-6.png') no-repeat center;
+        background: linear-gradient( to right bottom, rgba($color-black,.8), rgba($color-black,.8)), url('../../img/interface-6.png') no-repeat center;
         background-size: cover;
     }
 
     &:hover {
         transform: scale(1.2);
         color: rgb(226, 222, 222);
-        /* background-color: rgba(0, 0, 0, 0.6); */
         box-shadow: 0 5px 7px rgb(0, 0, 0);
         font-weight: bolder;
+
+        @include respond(phone) {
+            transform: scale(1);
+        }
     }
 
     &:hover h3 {
@@ -89,35 +91,35 @@
         display: block;
     }
 
-    &:hover &__img--1 {
-        background: linear-gradient( to right bottom, rgba($color-black,.4), rgba($color-black,.4),), url('../../img/interface-7.png') no-repeat center;
+    &__img--1:hover {
+        background-image: linear-gradient( to right bottom, rgba($color-black,1), rgba($color-black,1));
     }
 
-    &:hover &__img--2 {
-        background: linear-gradient( to right bottom, rgba($color-black,.4), rgba($color-black,.4),), url('../../img/interface-4.png') no-repeat center;
+    &__img--2:hover {
+        background-image: linear-gradient( to right bottom, rgba($color-black,1), rgba($color-black,1));
     }
 
-    &:hover &__img--3 {
-        background: linear-gradient( to right bottom, rgba($color-black,.4), rgba($color-black,.4),), url('../../img/interface-5.png') no-repeat center;
+    &__img--3:hover {
+        background-image: linear-gradient( to right bottom, rgba($color-black,1), rgba($color-black,1));
     }
 
-    &:hover &__img--4 {
-        background: linear-gradient( to right bottom, rgba($color-black,.4), rgba($color-black,.4),), url('../../img/interface-6.png') no-repeat center;
+    &__img--4:hover {
+        background-image: linear-gradient( to right bottom, rgba($color-black,1), rgba($color-black,1));
     }
 
-    &:hover &__img--5 {
-        background: linear-gradient( to right bottom, rgba($color-black,.4), rgba($color-black,.4),), url('../../img/interface-7.png') no-repeat center;
+    &__img--5:hover {
+        background-image: linear-gradient( to right bottom, rgba($color-black,1), rgba($color-black,1));
     }
 
-    &:hover &__img--6 {
-        background: linear-gradient( to right bottom, rgba($color-black,.4), rgba($color-black,.4),), url('../../img/interface-8.png') no-repeat center;
+    &__img--6:hover {
+        background-image: linear-gradient( to right bottom, rgba($color-black,1), rgba($color-black,1));
     }
 
-    &:hover &__img--7 {
-        background: linear-gradient( to right bottom, rgba($color-black,.4), rgba($color-black,.4),), url('../../img/interface-5.png') no-repeat center;
+    &__img--7:hover {
+        background-image: linear-gradient( to right bottom, rgba($color-black,1), rgba($color-black,1));
     }
 
-    &:hover &__img--8 {
-        background: linear-gradient( to right bottom, rgba($color-black,.4), rgba($color-black,.4),), url('../../img/interface-6.png') no-repeat center;
+    &__img--8:hover {
+        background-image: linear-gradient( to right bottom, rgba($color-black,1), rgba($color-black,1));
     }
 }

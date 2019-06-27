@@ -1,4 +1,5 @@
-function myFunction() {
+// for mobile navigation menu
+function mobList() {
     var x = document.querySelector(".navigation__list");
     var nav = document.querySelector(".navigation");
     var navNav = document.querySelector(".navigation__nav");

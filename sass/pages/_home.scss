@@ -50,6 +50,7 @@
 
         @include respond(phone) {
             padding-bottom: 4.33rem !important;
+            margin-bottom: 100px !important;
         }
     }
 }
