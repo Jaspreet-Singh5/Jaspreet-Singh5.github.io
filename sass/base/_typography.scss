@@ -55,8 +55,10 @@ body {
     }
 
     &:hover {
-        transform: scale(1.5) rotate(360deg);
-        text-shadow: .5rem 1rem 2rem rgba($color-black, 0.2);
+        @include checkHover() {
+            transform: scale(1.5) rotate(360deg);
+            text-shadow: .5rem 1rem 2rem rgba($color-black, 0.2);
+        }
     }
 }
 

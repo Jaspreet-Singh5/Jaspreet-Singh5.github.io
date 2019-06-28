@@ -101,9 +101,10 @@ body {
   @media only screen and (max-width: 56.25em) {
     .heading-secondary {
       font-size: 2.5rem; } }
-  .heading-secondary:hover {
-    transform: scale(1.5) rotate(360deg);
-    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+  @media only screen and (hover: hover) {
+    .heading-secondary:hover {
+      transform: scale(1.5) rotate(360deg);
+      text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); } }
 
 .heading-tertiary {
   font-size: 1.6rem;
@@ -169,12 +170,13 @@ body {
     .btn, .btn:link, .btn:visited {
       font-size: 1rem; } }
 
-.btn:hover {
-  transform: translateY(-0.3rem);
-  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.2); }
-  .btn:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0; }
+@media only screen and (hover: hover) {
+  .btn:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+    .btn:hover::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0; } }
 
 .btn:active, .btn:focus {
   outline: none;
@@ -218,11 +220,12 @@ body {
   border-bottom: 1px solid #4b7bec;
   transition: all .2s; }
 
-.btn-text:hover {
-  background-color: #4b7bec;
-  color: #fff;
-  transform: translateY(-2px);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15); }
+@media only screen and (hover: hover) {
+  .btn-text:hover {
+    background-color: #4b7bec;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15); } }
 
 .btn-text:active {
   background-color: #4b7bec;
@@ -274,70 +277,124 @@ body {
     transform: translateY(200%);
     font-size: 2.5rem;
     letter-spacing: 3px;
-    margin-top: 1.7rem; }
+    margin-top: 1.7rem;
+    transition: all .4s ease-in-out; }
     @media only screen and (max-width: 37.5em) {
       .events-box h3 {
-        transform: translateY(110%); } }
+        transform: translateY(10%); } }
   .events-box p {
-    display: none;
     letter-spacing: 2px;
     line-height: 27px;
-    text-align: center; }
+    text-align: center;
+    transition: all .4s ease-in-out;
+    transform: translateY(200%);
+    opacity: 0; }
     @media only screen and (max-width: 37.5em) {
       .events-box p {
-        transform: translateY(100%); } }
+        transform: translateY(40%);
+        opacity: 1; } }
   .events-box__img--1 {
-    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-7.png") no-repeat center;
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/interface-7.png") no-repeat center;
     background-size: cover; }
-  .events-box__img--2 {
-    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-4.png") no-repeat center;
-    background-size: cover; }
-  .events-box__img--3 {
-    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-5.png") no-repeat center;
-    background-size: cover; }
-  .events-box__img--4 {
-    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-6.png") no-repeat center;
-    background-size: cover; }
-  .events-box__img--5 {
-    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-7.png") no-repeat center;
-    background-size: cover; }
-  .events-box__img--6 {
-    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-8.png") no-repeat center;
-    background-size: cover; }
-  .events-box__img--7 {
-    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-5.png") no-repeat center;
-    background-size: cover; }
-  .events-box__img--8 {
-    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-6.png") no-repeat center;
-    background-size: cover; }
-  .events-box:hover {
-    transform: scale(1.2);
-    color: #e2dede;
-    box-shadow: 0 5px 7px black;
-    font-weight: bolder; }
     @media only screen and (max-width: 37.5em) {
-      .events-box:hover {
-        transform: scale(1); } }
-  .events-box:hover h3 {
-    transform: translateY(0%); }
-  .events-box:hover p {
-    display: block; }
-  .events-box__img--1:hover {
-    background-image: linear-gradient(to right bottom, black, black); }
-  .events-box__img--2:hover {
-    background-image: linear-gradient(to right bottom, black, black); }
-  .events-box__img--3:hover {
-    background-image: linear-gradient(to right bottom, black, black); }
-  .events-box__img--4:hover {
-    background-image: linear-gradient(to right bottom, black, black); }
-  .events-box__img--5:hover {
-    background-image: linear-gradient(to right bottom, black, black); }
-  .events-box__img--6:hover {
-    background-image: linear-gradient(to right bottom, black, black); }
-  .events-box__img--7:hover {
-    background-image: linear-gradient(to right bottom, black, black); }
-  .events-box__img--8:hover {
-    background-image: linear-gradient(to right bottom, black, black); }
+      .events-box__img--1 {
+        background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-7.png") no-repeat center;
+        background-size: cover; } }
+  .events-box__img--2 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/interface-4.png") no-repeat center;
+    background-size: cover; }
+    @media only screen and (max-width: 37.5em) {
+      .events-box__img--2 {
+        background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-4.png") no-repeat center;
+        background-size: cover; } }
+  .events-box__img--3 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/interface-5.png") no-repeat center;
+    background-size: cover; }
+    @media only screen and (max-width: 37.5em) {
+      .events-box__img--3 {
+        background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-5.png") no-repeat center;
+        background-size: cover; } }
+  .events-box__img--4 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/interface-6.png") no-repeat center;
+    background-size: cover; }
+    @media only screen and (max-width: 37.5em) {
+      .events-box__img--4 {
+        background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-6.png") no-repeat center;
+        background-size: cover; } }
+  .events-box__img--5 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/interface-7.png") no-repeat center;
+    background-size: cover; }
+    @media only screen and (max-width: 37.5em) {
+      .events-box__img--5 {
+        background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-7.png") no-repeat center;
+        background-size: cover; } }
+  .events-box__img--6 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/interface-8.png") no-repeat center;
+    background-size: cover; }
+    @media only screen and (max-width: 37.5em) {
+      .events-box__img--6 {
+        background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-8.png") no-repeat center;
+        background-size: cover; } }
+  .events-box__img--7 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/interface-5.png") no-repeat center;
+    background-size: cover; }
+    @media only screen and (max-width: 37.5em) {
+      .events-box__img--7 {
+        background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-5.png") no-repeat center;
+        background-size: cover; } }
+  .events-box__img--8 {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/interface-6.png") no-repeat center;
+    background-size: cover; }
+    @media only screen and (max-width: 37.5em) {
+      .events-box__img--8 {
+        background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-6.png") no-repeat center;
+        background-size: cover; } }
+  @media only screen and (hover: hover) {
+    .events-box:hover {
+      transform: scale(1.2);
+      color: #e2dede;
+      box-shadow: 0 5px 7px black;
+      font-weight: bolder; } }
+  @media only screen and (hover: hover) {
+    .events-box:hover h3 {
+      transform: translateY(0%); } }
+  @media only screen and (hover: hover) {
+    .events-box:hover p {
+      display: block;
+      transform: translateY(0%);
+      opacity: 1; } }
+  @media only screen and (hover: hover) {
+    .events-box__img--1:hover {
+      background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-7.png") no-repeat center;
+      background-size: cover; } }
+  @media only screen and (hover: hover) {
+    .events-box__img--2:hover {
+      background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-4.png") no-repeat center;
+      background-size: cover; } }
+  @media only screen and (hover: hover) {
+    .events-box__img--3:hover {
+      background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-5.png") no-repeat center;
+      background-size: cover; } }
+  @media only screen and (hover: hover) {
+    .events-box__img--4:hover {
+      background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-6.png") no-repeat center;
+      background-size: cover; } }
+  @media only screen and (hover: hover) {
+    .events-box__img--5:hover {
+      background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-7.png") no-repeat center;
+      background-size: cover; } }
+  @media only screen and (hover: hover) {
+    .events-box__img--6:hover {
+      background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-8.png") no-repeat center;
+      background-size: cover; } }
+  @media only screen and (hover: hover) {
+    .events-box__img--7:hover {
+      background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-5.png") no-repeat center;
+      background-size: cover; } }
+  @media only screen and (hover: hover) {
+    .events-box__img--8:hover {
+      background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/interface-6.png") no-repeat center;
+      background-size: cover; } }
 
 .gallery {
   margin-top: 10rem;
@@ -351,7 +408,9 @@ body {
   transition: all .4s ease-in-out; }
   @media only screen and (max-width: 37.5em) {
     .gallery {
-      margin-top: 5rem; } }
+      margin-top: 5rem;
+      grid-gap: .5rem;
+      padding: .5rem; } }
   .gallery__img {
     width: 100%;
     height: 100%;
@@ -388,6 +447,56 @@ body {
   .gallery__item--10 {
     grid-row: 5 / span 2;
     grid-column: 2 / span 4; }
+
+.footer {
+  background-color: #333;
+  padding: 10rem 3rem;
+  font-size: 1.4rem;
+  color: #eee;
+  margin-top: 5rem; }
+  .footer__logo-box {
+    text-align: center;
+    margin-bottom: 8rem; }
+    @media only screen and (max-width: 56.25em) {
+      .footer__logo-box {
+        margin-bottom: 5rem; } }
+  .footer__logo {
+    width: 15rem;
+    height: auto; }
+  .footer__navigation {
+    border-top: 1px solid #777;
+    display: inline-block;
+    padding-top: 2rem; }
+    @media only screen and (max-width: 56.25em) {
+      .footer__navigation {
+        width: 100%; } }
+  .footer__list {
+    list-style-type: none; }
+  .footer__item {
+    display: inline-block; }
+    .footer__item:not(:last-child) {
+      margin-right: 1.5rem; }
+  .footer__link-item:link, .footer__link-item:visited {
+    color: inherit;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .2s;
+    display: inline-block;
+    background-color: #333; }
+  @media only screen and (hover: hover) {
+    .footer__link-item:active, .footer__link-item:hover {
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+      transform: scale(1.3) rotate(5deg);
+      color: #4b7bec; } }
+  .footer__link-item__copyright {
+    border-top: 1px solid #777;
+    width: 80%;
+    padding-top: 2rem;
+    float: right; }
+    @media only screen and (max-width: 56.25em) {
+      .footer__link-item__copyright {
+        width: 100%;
+        float: none; } }
 
 .row {
   max-width: 114rem;
@@ -506,9 +615,10 @@ body {
     @media only screen and (max-width: 37.5em) {
       .navigation__link {
         font-size: 1rem; } }
-    .navigation__link:hover {
-      transform: scale(1.2);
-      color: #3c3467; }
+    @media only screen and (hover: hover) {
+      .navigation__link:hover {
+        transform: scale(1.2);
+        color: #3c3467; } }
 
 .header {
   background-image: linear-gradient(to right bottom, rgba(69, 170, 242, 0.6), rgba(238, 238, 238, 0.6)), url(../img/interface_1.jpg);
@@ -578,45 +688,4 @@ body {
   @media only screen and (max-width: 37.5em) {
     .section-events__row--2 {
       padding-bottom: 4.33rem !important;
-      margin-bottom: 100px !important; } }
-
-.section-tours {
-  background-color: #f7f7f7;
-  margin-top: -10rem;
-  padding: 25rem 0 15rem 0; }
-  @media only screen and (max-width: 56.25em) {
-    .section-tours {
-      padding: 20rem 0 10rem 0; } }
-
-.section-stories {
-  padding: 15rem 0;
-  position: relative; }
-  @media only screen and (max-width: 56.25em) {
-    .section-stories {
-      padding: 10rem; } }
-
-.section-book {
-  padding: 15rem 0;
-  background-image: linear-gradient(to right bottom, #45aaf2, #3867d6); }
-
-.book {
-  height: 50rem;
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 50%, transparent 50%), url(../img/nat-10.jpg);
-  background-size: cover;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
-  border-radius: 3px; }
-  @media only screen and (max-width: 75em) {
-    .book {
-      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 65%, transparent 65%), url(../img/nat-10.jpg); } }
-  @media only screen and (max-width: 75em) {
-    .book {
-      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 100%), url(../img/nat-10.jpg); } }
-  .book__form {
-    padding: 6rem;
-    width: 50%; }
-    @media only screen and (max-width: 75em) {
-      .book__form {
-        width: 65%; } }
-    @media only screen and (max-width: 56.25em) {
-      .book__form {
-        width: 100%; } }
+      margin-bottom: 5rem !important; } }

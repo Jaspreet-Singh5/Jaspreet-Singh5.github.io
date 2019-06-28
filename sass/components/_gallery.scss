@@ -11,6 +11,8 @@
 
     @include respond(phone) {
         margin-top: 5rem;
+        grid-gap: .5rem;
+        padding: .5rem;
     }
 
     &__img {

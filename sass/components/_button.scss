@@ -19,12 +19,14 @@
     }
 
     &:hover {
-        transform: translateY(-.3rem);
-        box-shadow: 0rem 1rem 2rem rgba($color-black, 0.20);
+        @include checkHover() {
+            transform: translateY(-.3rem);
+            box-shadow: 0rem 1rem 2rem rgba($color-black, 0.20);
 
-        &::after {
-            transform: scaleX(1.4) scaleY(1.6);
-            opacity: 0;
+            &::after {
+                transform: scaleX(1.4) scaleY(1.6);
+                opacity: 0;
+            }
         }
     }
 
@@ -85,10 +87,12 @@
     }
 
     &:hover {
-        background-color: $color-primary;
-        color: $color-white;
-        transform: translateY(-2px);
-        box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
+        @include checkHover() {
+            background-color: $color-primary;
+            color: $color-white;
+            transform: translateY(-2px);
+            box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
+        }
     }
 
     &:active {
