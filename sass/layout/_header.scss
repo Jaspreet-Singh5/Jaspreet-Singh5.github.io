@@ -7,8 +7,6 @@
     position: relative;
     border: .5rem solid $color-primary;
     border-bottom-width: 0rem;
-    border-radius: 2rem;
-    border-bottom-left-radius: 0rem;
 
     @include respond(phone) {
         border: none;

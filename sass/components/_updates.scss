@@ -6,6 +6,10 @@
     border-radius: 1rem;
     transition: all .3s ease-in-out;    
 
+    @include respond(phone) {
+        border-radius: 0px;
+    }
+
     &__title {
         padding: 1rem;
         color: $color-primary-dark;
