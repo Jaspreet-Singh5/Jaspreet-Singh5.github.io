@@ -310,6 +310,7 @@ body {
   font-weight: bolder; }
   @media only screen and (max-width: 37.5em) {
     .events-box {
+      width: 35rem;
       transition: none; } }
   .events-box h3 {
     transform: translateY(200%);
@@ -345,7 +346,8 @@ body {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/ep.png") no-repeat left, url("../../img/brochure/tech/ep1.png") no-repeat right;
         background-size: contain;
         transform: scale(0.8);
-        margin-bottom: 0rem; } }
+        margin-bottom: 0rem;
+        margin-left: -2.5rem; } }
   .events-box__img--2 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/gd.png") no-repeat center;
     background-size: contain; }
@@ -361,7 +363,8 @@ body {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/gd.png") no-repeat left, url("../../img/brochure/tech/gd1.png") no-repeat right;
     background-size: contain;
     transform: scale(0.8);
-    margin-bottom: 0rem; } }
+    margin-bottom: 0rem;
+    margin-left: -2.5rem; } }
   .events-box__img--3 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/hack.png") no-repeat center;
     background-size: contain; }
@@ -376,7 +379,8 @@ body {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/hack.png") no-repeat left, url("../../img/brochure/tech/hack1.png") no-repeat right;
         background-size: contain;
         transform: scale(0.8);
-        margin-bottom: 0rem; } }
+        margin-bottom: 0rem;
+        margin-left: -2.5rem; } }
   .events-box__img--4 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/IOT.png") no-repeat center;
     background-size: contain; }
@@ -391,7 +395,8 @@ body {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/IOT.png") no-repeat left, url("../../img/brochure/tech/IOT1.png") no-repeat right;
         background-size: contain;
         transform: scale(0.8);
-        margin-bottom: 0rem; } }
+        margin-bottom: 0rem;
+        margin-left: -2.5rem; } }
   .events-box__img--5 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/itquiz.png") no-repeat center;
     background-size: contain; }
@@ -406,7 +411,8 @@ body {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/itquiz.png") no-repeat left, url("../../img/brochure/tech/itquiz1.png") no-repeat right;
         background-size: contain;
         transform: scale(0.8);
-        margin-bottom: 0rem; } }
+        margin-bottom: 0rem;
+        margin-left: -2.5rem; } }
   .events-box__img--6 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/tagcoding.png") no-repeat center;
     background-size: contain; }
@@ -421,7 +427,8 @@ body {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/tagcoding.png") no-repeat left, url("../../img/brochure/tech/tagcoding1.png") no-repeat right;
         background-size: contain;
         transform: scale(0.8);
-        margin-bottom: 0rem; } }
+        margin-bottom: 0rem;
+        margin-left: -2.5rem; } }
   .events-box__img--7 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/wd.png") no-repeat center;
     background-size: contain; }
@@ -436,7 +443,8 @@ body {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/wd.png") no-repeat left, url("../../img/brochure/tech/wd1.png") no-repeat right;
         background-size: contain;
         transform: scale(0.8);
-        margin-bottom: 0rem; } }
+        margin-bottom: 0rem;
+        margin-left: -2.5rem; } }
   .events-box__img--8 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/btm.png") no-repeat center;
     background-size: contain; }
@@ -451,7 +459,8 @@ body {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/btm.png") no-repeat left, url("../../img/brochure/non_tech/btm1.png") no-repeat right;
         background-size: contain;
         transform: scale(0.8);
-        margin-bottom: 0rem; } }
+        margin-bottom: 0rem;
+        margin-left: -2.5rem; } }
   .events-box__img--9 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/event.png") no-repeat center;
     background-size: contain; }
@@ -466,7 +475,8 @@ body {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/event.png") no-repeat left, url("../../img/brochure/non_tech/event1.png") no-repeat right;
         background-size: contain;
         transform: scale(0.8);
-        margin-bottom: 0rem; } }
+        margin-bottom: 0rem;
+        margin-left: -2.5rem; } }
   .events-box__img--10 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/gaming.png") no-repeat center;
     background-size: contain; }
@@ -481,7 +491,8 @@ body {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/gaming.png") no-repeat left, url("../../img/brochure/non_tech/gaming1.png") no-repeat right;
         background-size: contain;
         transform: scale(0.8);
-        margin-bottom: 0rem; } }
+        margin-bottom: 0rem;
+        margin-left: -2.5rem; } }
   .events-box__img--11 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/mun.png") no-repeat center;
     background-size: contain; }
@@ -496,7 +507,8 @@ body {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/mun.png") no-repeat left, url("../../img/brochure/non_tech/mun1.png") no-repeat right;
         background-size: contain;
         transform: scale(0.8);
-        margin-bottom: 0rem; } }
+        margin-bottom: 0rem;
+        margin-left: -2.5rem; } }
   .events-box__img--12 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/pv.png") no-repeat center;
     background-size: contain; }
@@ -511,7 +523,8 @@ body {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/pv.png") no-repeat left, url("../../img/brochure/non_tech/pv1.png") no-repeat right;
         background-size: contain;
         transform: scale(0.8);
-        margin-bottom: 0rem; } }
+        margin-bottom: 0rem;
+        margin-left: -2.5rem; } }
   .events-box__img--13 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/th.png") no-repeat center;
     background-size: contain; }
@@ -525,7 +538,8 @@ body {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/th.png") no-repeat left, url("../../img/brochure/non_tech/th1.png") no-repeat right;
         background-size: contain;
         transform: scale(0.8);
-        margin-bottom: 0rem; } }
+        margin-bottom: 0rem;
+        margin-left: -2.5rem; } }
   @media only screen and (hover: hover) {
     .events-box:hover {
       transform: scale(1.2);
@@ -731,12 +745,17 @@ body {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
+      @media only screen and (max-width: 37.5em) {
+        .row [class^="col-"]:not(:last-child) {
+          margin-right: 0rem; } }
     @media only screen and (max-width: 75em) {
       .row [class^="col-"] {
         width: 35rem !important; }
         .row [class^="col-"]:not(:last-child) {
-          margin-bottom: 6rem;
-          margin-right: 0; } }
+          margin-bottom: 6rem; } }
+    @media only screen and (max-width: 75em) and (min-width: 37.5em) {
+      .row [class^="col-"]:not(:last-child) {
+        margin-right: 0; } }
     @media only screen and (max-width: 75em) and (max-width: 37.5em) {
       .row [class^="col-"]:not(:last-child) {
         margin-bottom: .5rem; } }
