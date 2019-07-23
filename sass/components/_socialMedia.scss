@@ -1,6 +1,6 @@
 .socialMedia {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: center;
 
 	&__item {
@@ -12,7 +12,7 @@
 
 	&__icon {
 		color: $color-grey-light-2;
-		font-size: 5rem;
+		font-size: 3rem;
 		margin: 1rem;
 	}
 }

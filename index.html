@@ -11,19 +11,18 @@
     <script src="./js/script.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" type="img/png" href="">
+    <link rel="shortcut icon" type="img/png" href="./img/logo.png">
 </head>
 <body>
     <nav class="navigation">
-
         <div class="navigation__nav">
             <div class="navigation__list">
-                <a href="#" class="navigation__link">About</a>
+                <a href="" class="navigation__link navigation__link--active">Home</a>
+                <a href="#about" class="navigation__link">About</a>
                 <a href="./src/events.html" class="navigation__link">Events</a>
                 <a href="#" class="navigation__link">Timings</a>
-                <a href="#" class="navigation__link">Locations</a>
+                <a href="mailto:someone@science.christuniversity.in?Subject=Interface%20-%20Query" target="_top" class="navigation__link">Contact Us</a>
             </div>
 
             <a href="javascript:void(0);" class="navigation__icon" onclick="mobList()">
@@ -33,6 +32,12 @@
     </nav>
 
     <header class="header">
+        <div class="bg-video">
+            <video class="bg-video__content" autoplay loop muted>
+                <source src="video/interface1.mp4" type="video/mp4" />
+            </video>
+        </div>
+
         <div class="header__logo-box">
             <img src="img/logo.png" alt="Logo" class="header__logo" />
         </div>
@@ -41,10 +46,10 @@
             <h1 class="heading-primary">
                 <span class="heading-primary--main">DEPARTMENT OF COMPUTER SCIENCE</span>
                 <span class="heading-primary--sub">PROUDLY PRESENTS</span>
-                <span class="heading-primary--main">INTERFACE</span>
+                <!-- <span class="heading-primary--main">INTERFACE</span>  -->
             </h1>
 
-            <a href="#" class="btn btn--white btn--animated">REGISTER NOW</a>
+            <!-- <a href="./src/pay.html" class="btn btn--white btn--animated">REGISTER NOW</a> -->
         </div>
     </header>
 
@@ -52,7 +57,7 @@
         <section class="section-about">
             <div class="u-center-text u-margin-bottom-medium">
                 <h2 class="heading-secondary">
-                    About
+                    <a name="about">About</a>
                 </h2>
             </div>
 
@@ -72,8 +77,9 @@
                     </p>
 
                     <a href="#" alt="" class="btn-text">Brochure &rarr;</a>
+                    <a href="./src/events.html" alt="" class="btn-text u-margin-left-medium">Events &rarr;</a>
                 </div>
-                
+
                 <div class="col-1-of-2">
                     <div class="updates">
                         <h3 class="heading-tertiary updates__title u-margin-bottom-small u-center-text">
@@ -95,58 +101,63 @@
                     </div>
                 </div>
             </div>
+
+            <div class="row u-center-text">
+                <a href="./src/pay.html" class="btn btn--green btn--animated">REGISTER NOW</a>
+            </div>
+
         </section>
     </main>
 
     <footer class="footer">
         <div class="footer__logo-box">
-            <img src="./img/logo.png" alt="" class="footer__logo" />
+            <a href="https://christuniversity.in/" target="_blank"><img src="./img/univLogo.png" alt="" class="footer__logo" /></a>
         </div>
 
-        <div class="row">
+        <div class="row u-margin-bottom-small">
             <div class="col-1-of-2">
                 <div class="footer__navigation">
                     <ul class="footer__list">
-                        <li class="footer__item"><a href="" class="footer__link-item">Register</a></li>
-                        <li class="footer__item"><a href="" class="footer__link-item">Contact us</a></li>
+                        <li class="footer__item"><a href="./src/pay.html" class="footer__link-item" target="_blank">Register</a></li>
+                        <li class="footer__item"><a href="mailto:someone@science.christuniversity.in?Subject=Interface%20-%20Query" target="_top" class="footer__link-item">Contact us</a></li>
                         <li class="footer__item"><a href="" class="footer__link-item">Timings</a></li>
                         <li class="footer__item"><a href="" class="footer__link-item">Brochure</a></li>
-                        <li class="footer__item"><a href="" class="footer__link-item">More</a></li>
                     </ul>
                 </div>
             </div>
 
             <div class="col-1-of-2">
-                <div class="footer__copyright u-margin-bottom-small">
-                    Build by <a href="" class="footer__link-item">Jaspreet Singh</a> and <a href="" class="footer__link-item">Rupam</a> for Christ University with all rights reserved.
-                </div>
 
                 <div class="socialMedia">
                     <div class="socialMedia__item">
-                        <a href="" class="socialMedia__link">
+                        <a href="https://www.facebook.com/Interface-2019-20-623662338119146/" target="_blank" class="socialMedia__link">
                             <i class="fa fa-facebook-official socialMedia__icon" aria-hidden="true"></i>
                         </a>
                     </div>
 
                     <div class="socialMedia__item">
-                        <a href="" class="socialMedia__link">
+                        <a href="https://twitter.com/interface2019/status/1151159498880405506?s=12" target="_blank" class="socialMedia__link">
                             <i class="fa fa-twitter socialMedia__icon" aria-hidden="true"></i>
                         </a>
                     </div>
 
                     <div class="socialMedia__item">
-                        <a href="" class="socialMedia__link">
-                            <i class="fa fa-youtube socialMedia__icon" aria-hidden="true"></i>
+                        <a href="https://instagram.com/interface_2019?igshid=1lpfrd763r2em" target="_blank" class="socialMedia__link">
+                            <i class="fa fa-instagram socialMedia__icon" aria-hidden="true"></i>
                         </a>
                     </div>
 
                     <div class="socialMedia__item">
-                        <a href="" class="socialMedia__link">
+                        <a href="https://christuniversity.in/album" target="_blank" class="socialMedia__link">
                             <i class="fa fa-picture-o socialMedia__icon" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="footer__copyright u-center-text">
+            Copyright © 2019 - christuniversity.in
         </div>
     </footer>
 

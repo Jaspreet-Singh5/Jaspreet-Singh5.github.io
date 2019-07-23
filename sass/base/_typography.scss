@@ -56,8 +56,13 @@ body {
 
     &:hover {
         @include checkHover() {
-            transform: scale(1.5) rotate(360deg);
+            transform: scale(1.5);
             text-shadow: .5rem 1rem 2rem rgba($color-black, 0.2);
+        }
+
+        @include respond(phone) {
+            transform: none;
+            text-shadow: none;
         }
     }
 }

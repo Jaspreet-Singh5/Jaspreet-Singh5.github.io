@@ -16,6 +16,10 @@
         @include respond(phone) {
             font-size: 1rem;
         }
+
+        &:hover {
+            opacity: 1;
+        }
     }
 
     &:hover {

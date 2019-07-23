@@ -13,7 +13,7 @@ function mobList() {
 
         nav.style.width = "8rem";
         x.style.display = "none";
-        
+
 
         if (screen.width < 900) {
             nav.style.backgroundColor = "transparent";
@@ -45,7 +45,7 @@ function mobList() {
                 nav.style.height = "100%";
             }
         }
-       
+
         x.style.display = "flex";
         x.style.justifyContent = "space-between";
         x.style.alignItmes = "center";
