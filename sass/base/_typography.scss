@@ -23,6 +23,14 @@ body {
             font-size: 2rem;
             letter-spacing: .15rem;
         }
+
+        &__festName {
+            display: none;
+
+            @include respond(phone) {
+                display: block;
+            }
+        }
     }
 
     &--sub {

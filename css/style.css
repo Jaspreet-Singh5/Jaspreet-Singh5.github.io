@@ -77,6 +77,11 @@ body {
       .heading-primary--main {
         font-size: 2rem;
         letter-spacing: .15rem; } }
+    .heading-primary--main__festName {
+      display: none; }
+      @media only screen and (max-width: 37.5em) {
+        .heading-primary--main__festName {
+          display: block; } }
   .heading-primary--sub {
     font-size: 1.5rem;
     font-weight: 700;
@@ -759,9 +764,6 @@ body {
     @media only screen and (max-width: 75em) and (max-width: 37.5em) {
       .row [class^="col-"]:not(:last-child) {
         margin-bottom: .5rem; } }
-    @media only screen and (max-width: 37.5em) {
-      .row [class^="col-"] {
-        width: 30rem !important; } }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
   .row .col-1-of-3 {
@@ -960,3 +962,6 @@ body {
       margin-bottom: 0rem !important; } }
   .row .section-events__col {
     width: calc((100% - 10 * 6rem) / 3); }
+  @media only screen and (max-width: 37.5em) {
+    .row .section-events__col {
+      width: 30rem !important; } }

@@ -73,5 +73,11 @@
     .row &__col {
         width: calc((100% - 10 * 6rem) / 3);
     }
+
+    .row &__col {
+        @include respond(phone) {
+            width: 30rem !important;
+        }
+    }
 }
 
