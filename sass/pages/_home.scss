@@ -1,8 +1,12 @@
 .section-about {
-    background-color: $color-grey-light-1;
+    background-color: $color-grey-light-2;
     padding: 5rem 0;
-    
+
     @include respond(tab-port) {
+    }
+
+    & .row [class^="col-"]:not(:last-child) {
+        margin-right: 6rem;
     }
 }
 
@@ -29,6 +33,17 @@
     & > .row {
         padding: 3rem;
 
+        @media only screen and (min-width: 75em) { // 1200px
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            &:not(:last-child) {
+                margin-bottom: 15rem;
+            }
+        }
+
         @include respond(tab-land) {
             display: flex;
             flex-direction: column;
@@ -44,6 +59,7 @@
 
             &:not(:first-child) {
                 padding-top: 0rem;
+                margin-bottom: 1rem;
             }
         }
     }
@@ -72,12 +88,101 @@
 
     .row &__col {
         width: calc((100% - 10 * 6rem) / 3);
-    }
 
-    .row &__col {
+        @media only screen and (min-width: 75em) { // 1200px
+            //     Add transform: scaley(1.5) scaleX(1.8);
+            transform: scaley(1.5) scaleX(1.8);
+        }
+
         @include respond(phone) {
             width: 30rem !important;
         }
     }
 }
+
+/*SECTION LOCATION*/
+
+.section-locations {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(../img/gal-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.flex-loct {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.flex-loct > div {
+    width: 20%;
+    height: auto;
+    margin: 2.5%;
+}
+
+.loct-img figure {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #000;
+}
+
+.loct-img figcaption {
+    opacity: 0;
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2vw;
+    transition: 0.2s;
+}
+
+.loct-img figure:hover img {
+    opacity: 0.4;
+}
+
+.loct-img figure:hover figcaption {
+    opacity: 1;
+}
+
+.loct-img figure img {
+    width: 100%;
+    height: 100%;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+
+
+h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3vw;
+    font-weight: 300;
+    padding: 10px;
+    text-align: center;
+}
+
+h1:after {
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 500px) {
+    .flex-loct > div {
+        width: 80%;
+        height: 250px;
+        margin-left: 10%;
+    }
+}
+
 

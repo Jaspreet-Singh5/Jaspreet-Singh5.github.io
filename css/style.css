@@ -154,6 +154,9 @@ body {
 
 .u-margin-top-big {
   margin-top: 8rem !important; }
+  @media only screen and (max-width: 37.5em) {
+    .u-margin-top-big {
+      margin-top: 1rem !important; } }
 
 .u-margin-top-huge {
   margin-top: 10rem !important; }
@@ -356,7 +359,7 @@ body {
   .events-box__img--2 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/gd.png") no-repeat center;
     background-size: contain; }
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 75em) {
       .events-box__img--2 {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/gd.png") no-repeat left, url("../../img/brochure/tech/gd1.png") no-repeat right;
         background-size: contain;
@@ -373,7 +376,7 @@ body {
   .events-box__img--3 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/hack.png") no-repeat center;
     background-size: contain; }
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 75em) {
       .events-box__img--3 {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/hack.png") no-repeat left, url("../../img/brochure/tech/hack1.png") no-repeat right;
         background-size: contain;
@@ -389,7 +392,7 @@ body {
   .events-box__img--4 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/IOT.png") no-repeat center;
     background-size: contain; }
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 75em) {
       .events-box__img--4 {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/IOT.png") no-repeat left, url("../../img/brochure/tech/IOT1.png") no-repeat right;
         background-size: contain;
@@ -405,7 +408,7 @@ body {
   .events-box__img--5 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/itquiz.png") no-repeat center;
     background-size: contain; }
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 75em) {
       .events-box__img--5 {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/itquiz.png") no-repeat left, url("../../img/brochure/tech/itquiz1.png") no-repeat right;
         background-size: contain;
@@ -421,7 +424,7 @@ body {
   .events-box__img--6 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/tagcoding.png") no-repeat center;
     background-size: contain; }
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 75em) {
       .events-box__img--6 {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/tagcoding.png") no-repeat left, url("../../img/brochure/tech/tagcoding1.png") no-repeat right;
         background-size: contain;
@@ -437,7 +440,7 @@ body {
   .events-box__img--7 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/wd.png") no-repeat center;
     background-size: contain; }
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 75em) {
       .events-box__img--7 {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/tech/wd.png") no-repeat left, url("../../img/brochure/tech/wd1.png") no-repeat right;
         background-size: contain;
@@ -453,7 +456,7 @@ body {
   .events-box__img--8 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/btm.png") no-repeat center;
     background-size: contain; }
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 75em) {
       .events-box__img--8 {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/btm.png") no-repeat left, url("../../img/brochure/non_tech/btm1.png") no-repeat right;
         background-size: contain;
@@ -469,7 +472,7 @@ body {
   .events-box__img--9 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/event.png") no-repeat center;
     background-size: contain; }
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 75em) {
       .events-box__img--9 {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/event.png") no-repeat left, url("../../img/brochure/non_tech/event1.png") no-repeat right;
         background-size: contain;
@@ -485,7 +488,7 @@ body {
   .events-box__img--10 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/gaming.png") no-repeat center;
     background-size: contain; }
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 75em) {
       .events-box__img--10 {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/gaming.png") no-repeat left, url("../../img/brochure/non_tech/gaming1.png") no-repeat right;
         background-size: contain;
@@ -501,7 +504,7 @@ body {
   .events-box__img--11 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/mun.png") no-repeat center;
     background-size: contain; }
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 75em) {
       .events-box__img--11 {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/mun.png") no-repeat left, url("../../img/brochure/non_tech/mun1.png") no-repeat right;
         background-size: contain;
@@ -517,7 +520,7 @@ body {
   .events-box__img--12 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/pv.png") no-repeat center;
     background-size: contain; }
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 75em) {
       .events-box__img--12 {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/pv.png") no-repeat left, url("../../img/brochure/non_tech/pv1.png") no-repeat right;
         background-size: contain;
@@ -533,7 +536,7 @@ body {
   .events-box__img--13 {
     background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/th.png") no-repeat center;
     background-size: contain; }
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 75em) {
       .events-box__img--13 {
         background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/brochure/non_tech/th.png") no-repeat left, url("../../img/brochure/non_tech/th1.png") no-repeat right;
         background-size: contain;
@@ -545,17 +548,11 @@ body {
         transform: scale(0.8);
         margin-bottom: 0rem;
         margin-left: -2.5rem; } }
-  @media only screen and (hover: hover) {
+  @media only screen and (min-width: 75rem) {
     .events-box:hover {
-      transform: scale(1.2);
+      transform: scale(1.1);
       color: #e2dede;
       box-shadow: 0 5px 7px black;
-      font-weight: bolder; } }
-  @media only screen and (max-width: 37.5em) {
-    .events-box:hover {
-      transform: scale(1);
-      color: #d8d0d0;
-      box-shadow: 0 5px 10px #1d1c1c;
       font-weight: bolder; } }
   @media only screen and (hover: hover) {
     .events-box:hover h3 {
@@ -571,55 +568,55 @@ body {
   @media only screen and (max-width: 37.5em) {
     .events-box:hover p {
       transform: translateY(40%); } }
-  @media only screen and (hover: hover) {
+  @media only screen and (min-width: 75rem) {
     .events-box__img--1:hover {
       background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../img/brochure/tech/ep1.png") no-repeat center;
       background-size: contain; } }
-  @media only screen and (hover: hover) {
+  @media only screen and (min-width: 75rem) {
     .events-box__img--2:hover {
       background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../img/brochure/tech/gd1.png") no-repeat center;
       background-size: contain; } }
-  @media only screen and (hover: hover) {
+  @media only screen and (min-width: 75rem) {
     .events-box__img--3:hover {
       background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../img/brochure/tech/hack1.png") no-repeat center;
       background-size: contain; } }
-  @media only screen and (hover: hover) {
+  @media only screen and (min-width: 75rem) {
     .events-box__img--4:hover {
       background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../img/brochure/tech/IOT1.png") no-repeat center;
       background-size: contain; } }
-  @media only screen and (hover: hover) {
+  @media only screen and (min-width: 75rem) {
     .events-box__img--5:hover {
       background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../img/brochure/tech/itquiz1.png") no-repeat center;
       background-size: contain; } }
-  @media only screen and (hover: hover) {
+  @media only screen and (min-width: 75rem) {
     .events-box__img--6:hover {
       background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../img/brochure/tech/tagcoding1.png") no-repeat center;
       background-size: contain; } }
-  @media only screen and (hover: hover) {
+  @media only screen and (min-width: 75rem) {
     .events-box__img--7:hover {
       background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../img/brochure/tech/wd1.png") no-repeat center;
       background-size: contain; } }
-  @media only screen and (hover: hover) {
+  @media only screen and (min-width: 75rem) {
     .events-box__img--8:hover {
       background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../img/brochure/non_tech/btm1.png") no-repeat center;
       background-size: contain; } }
-  @media only screen and (hover: hover) {
+  @media only screen and (min-width: 75rem) {
     .events-box__img--9:hover {
       background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../img/brochure/non_tech/event1.png") no-repeat center;
       background-size: contain; } }
-  @media only screen and (hover: hover) {
+  @media only screen and (min-width: 75rem) {
     .events-box__img--10:hover {
       background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../img/brochure/non_tech/gaming1.png") no-repeat center;
       background-size: contain; } }
-  @media only screen and (hover: hover) {
+  @media only screen and (min-width: 75rem) {
     .events-box__img--11:hover {
       background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../img/brochure/non_tech/mun1.png") no-repeat center;
       background-size: contain; } }
-  @media only screen and (hover: hover) {
+  @media only screen and (min-width: 75rem) {
     .events-box__img--12:hover {
       background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../img/brochure/non_tech/pv1.png") no-repeat center;
       background-size: contain; } }
-  @media only screen and (hover: hover) {
+  @media only screen and (min-width: 75rem) {
     .events-box__img--13:hover {
       background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../img/brochure/non_tech/th1.png") no-repeat center;
       background-size: contain; } }
@@ -677,10 +674,12 @@ body {
     grid-column: 2 / span 4; }
 
 .footer {
-  background-color: rgba(56, 103, 214, 0.8);
+  background-color: rgba(51, 51, 51, 0.8);
   padding: 2rem 1rem;
   font-size: 1.4rem;
   color: #eee; }
+  .footer .row [class^="col-"]:not(:last-child) {
+    margin-right: 6rem; }
   .footer__logo-box {
     text-align: center; }
   .footer__logo {
@@ -750,6 +749,9 @@ body {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
+      @media only screen and (min-width: 75em) {
+        .row [class^="col-"]:not(:last-child) {
+          margin-right: 18rem; } }
       @media only screen and (max-width: 37.5em) {
         .row [class^="col-"]:not(:last-child) {
           margin-right: 0rem; } }
@@ -771,6 +773,9 @@ body {
     width: calc((100% - 6rem) / 2); }
   .row .col-1-of-3 {
     width: calc((100% - 2 * 6rem) / 3); }
+    @media only screen and (min-width: 75em) {
+      .row .col-1-of-3 {
+        scale: 1.5; } }
   .row .col-2-of-3 {
     width: calc(2* ((100% - 2* 6rem) / 3) + 6rem); }
   .row .col-1-of-4 {
@@ -916,8 +921,10 @@ body {
         opacity: 1; } }
 
 .section-about {
-  background-color: #f7f7f7;
+  background-color: #eee;
   padding: 5rem 0; }
+  .section-about .row [class^="col-"]:not(:last-child) {
+    margin-right: 6rem; }
 
 .section-events {
   padding: 5rem 0;
@@ -935,6 +942,14 @@ body {
       padding-bottom: 6rem; } }
   .section-events > .row {
     padding: 3rem; }
+    @media only screen and (min-width: 75em) {
+      .section-events > .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
+        .section-events > .row:not(:last-child) {
+          margin-bottom: 15rem; } }
     @media only screen and (max-width: 75em) {
       .section-events > .row {
         display: flex;
@@ -948,7 +963,8 @@ body {
         padding: 1rem;
         padding-bottom: 0rem; }
         .section-events > .row:not(:first-child) {
-          padding-top: 0rem; } }
+          padding-top: 0rem;
+          margin-bottom: 1rem; } }
   @media only screen and (max-width: 56.25em) {
     .section-events__row--1 {
       margin-top: 25rem;
@@ -965,6 +981,79 @@ body {
       margin-bottom: 0rem !important; } }
   .row .section-events__col {
     width: calc((100% - 10 * 6rem) / 3); }
-  @media only screen and (max-width: 37.5em) {
-    .row .section-events__col {
-      width: 30rem !important; } }
+    @media only screen and (min-width: 75em) {
+      .row .section-events__col {
+        transform: scaley(1.5) scaleX(1.8); } }
+    @media only screen and (max-width: 37.5em) {
+      .row .section-events__col {
+        width: 30rem !important; } }
+
+/*SECTION LOCATION*/
+.section-locations {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(../img/gal-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.flex-loct {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px; }
+
+.flex-loct > div {
+  width: 20%;
+  height: auto;
+  margin: 2.5%; }
+
+.loct-img figure {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #000; }
+
+.loct-img figcaption {
+  opacity: 0;
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2vw;
+  transition: 0.2s; }
+
+.loct-img figure:hover img {
+  opacity: 0.4; }
+
+.loct-img figure:hover figcaption {
+  opacity: 1; }
+
+.loct-img figure img {
+  width: 100%;
+  height: 100%;
+  transition: 0.2s;
+  border-radius: 5px; }
+
+h1 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 3vw;
+  font-weight: 300;
+  padding: 10px;
+  text-align: center; }
+
+h1:after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0 auto; }
+
+@media only screen and (max-width: 500px) {
+  .flex-loct > div {
+    width: 80%;
+    height: 250px;
+    margin-left: 10%; } }
