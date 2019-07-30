@@ -14,15 +14,16 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="img/png" href="./img/logo.png">
 </head>
-<body>
+
+<body id="home">
     <nav class="navigation">
         <div class="navigation__nav">
             <div class="navigation__list">
                 <a href="" class="navigation__link navigation__link--active">Home</a>
                 <a href="#about" class="navigation__link">About</a>
-                <a href="./src/events.html" class="navigation__link">Events</a>
+                <a href="./src/events-new.html" class="navigation__link">Events</a>
                 <a href="./src/time-table.html" target="_blank" class="navigation__link">Timings</a>
-                <a href="mailto:someone@science.christuniversity.in?Subject=Interface%20-%20Query" target="_top" class="navigation__link">Contact Us</a>
+                <a href="src/contact.html" class="navigation__link">Contact Us</a>
             </div>
 
             <a href="javascript:void(0);" class="navigation__icon" onclick="mobList()">
@@ -31,7 +32,7 @@
         </div>
     </nav>
 
-    <header class="header">
+    <header class="header" id="home">
         <div class="bg-video">
             <video class="bg-video__content" autoplay loop muted>
                 <source src="video/interface1.mp4" type="video/mp4" />
@@ -64,19 +65,14 @@
             <div class="row">
                 <div class="col-1-of-2 u-padding-small">
                     <h3 class="heading-tertiary u-margin-bottom-small">
-                        Lorem Impum
+                        About Interface
                     </h3>
                     <p class="paragraph">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a volutpat felis, vitae commodo dolor. Vestibulum id ante eu nisl lacinia accumsan eget sit amet lorem. Phasellus ac leo sollicitudin, luctus urna nec, luctus lacus. In id purus ut nisl accumsan dignissim ac vel purus.
-                    </p>
-                    <h3 class="heading-tertiary u-margin-bottom-small">
-                        Lorem Impum
-                    </h3>
-                    <p class="paragraph">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a volutpat felis, vitae commodo dolor.
+                        Interface is a nexus of technology, innovation and art organised by the department of COMPUTER SCIENCE hosted on August 20 and 21, 2019. The two day extravaganza witnesses the coalescence of the final exponents of technical acumen as hundreds and thousands compete in series of events in a bid to emerge victorious. Interface has successfully surfaced as a brand in itself, invoking participation from thousands of students from different institutions and universities across India. It provides a platform for students to showcase their technical skills vis-a-vis real life technological scenarios that challenge them to think on the go and apply everything they have learned so far.
                     </p>
 
-                    <a href="./src/events.html" alt="" class="btn-text">Events &rarr;</a>
+                    <a href="./src/events-new.html" alt="" class="btn-text">Events &rarr;</a>
+                    <a href="https://drive.google.com/file/d/1mxo-vaBI4ZAxJCtjXbQ7Ss_Gg9O7mJuA/preview" target="_blank"  class="btn-text u-margin-left-medium brochure-phone">Brochure &rarr;</a>
                 </div>
 
                 <div class="col-1-of-2">
@@ -87,14 +83,17 @@
 
                         <ul class="updates__list">
                             <li class="updates__list__item">
-                                <h1 class="heading-primary--sub">LOREM IPSUM</h1>
-                                <span class="updates__list__item--date">DD/MM/YY</span>
-                                <a href="#" class="updates__list__item--link">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a volutpat felis, vitae commodo dolor.</a>
+                                <h1 class="heading-primary--sub">DATES</h1>
+                                <span class="updates__list__item--date">20/08/19</span>
+                                <p class="updates__list__item--link updt-text">Interface starts on 20th August and ends on 21st August. There are 7 technical and  6 non-technical events.</p>
                             </li>
                             <li class="updates__list__item">
-                                <h1 class="heading-primary--sub">LOREM IPSUM</h1>
-                                <span class="updates__list__item--date">DD/MM/YY</span>
-                                <a href="#" class="updates__list__item--link">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a volutpat felis, vitae commodo dolor.</a>
+                                <span class="updates__list__item--date">21/08/19</span>
+                                <p class="updates__list__item--link updt-text">First prize : 25000/-<br>Second prize : 15000/-</p>
+                            </li>
+                            <li class="updates__list__item">
+                                <span class="updates__list__item--date">20/08/19</span>
+                                <p class="updates__list__item--link updt-text">Infosys bootcamp</p>
                             </li>
                         </ul>
                     </div>
@@ -102,8 +101,9 @@
             </div>
 
             <div class="row u-center-text">
-                <a href="./src/pay.html" target="_blank" class="btn btn--green btn--animated">REGISTER NOW</a>
-            </div>
+                <a href="./src/pay.html" class="btn btn--green btn--animated">REGISTER NOW</a>
+                <a href="https://drive.google.com/file/d/1uHdR0Ybc-EGttOZev2tMcIOGAxSUZUs2/preview" target="_blank" class="btn btn--green btn--animated u-margin-left-medium  brochure">Brochure</a>
+            </div>    
 
         </section>
     </main>
@@ -113,7 +113,7 @@
         <div class="flex-loct">
             <div class="loct-img">
                 <figure>
-                    <img src="img/block-c.jpg" />
+                    <img src="img/block-c.jpeg" />
                     <figcaption>central block</figcaption>
                 </figure>
             </div>
@@ -125,30 +125,28 @@
             </div>
             <div class="loct-img">
                 <figure>
-                    <img src="img/block-2.jpg" />
+                    <img src="img/block-2.png" />
                     <figcaption>block-2</figcaption>
                 </figure>
             </div>
             <div class="loct-img">
                 <figure>
-                    <img src="img/block-4.jpg" />
-                    <figcaption>block-4</figcaption>
+                    <img src="img/block-3.jpg" />
+                    <figcaption>block-3</figcaption>
                 </figure>
             </div>
         </div>
     </section>
 
-    <footer class="footer">
-        <div class="footer__logo-box">
-            <a href="https://christuniversity.in/" target="_blank"><img src="./img/univLogo.png" alt="" class="footer__logo" /></a>
-        </div>
+    <footer class="footer" id="contact" name="contact">
+        
 
         <div class="row u-margin-bottom-small">
             <div class="col-1-of-2">
                 <div class="footer__navigation">
                     <ul class="footer__list">
-                        <li class="footer__item"><a href="./src/pay.html" class="footer__link-item" target="_blank">Register</a></li>
-                        <li class="footer__item"><a href="mailto:someone@science.christuniversity.in?Subject=Interface%20-%20Query" target="_top" class="footer__link-item">Contact us</a></li>
+                        <li class="footer__item"><a href="./src/pay.html" class="footer__link-item">Register</a></li>
+                        <li class="footer__item"><a href="src/contact.html" target="_top" class="footer__link-item">Contact us</a></li>
                         <li class="footer__item"><a href="./src/time-table.html" target="_blank" class="footer__link-item">Timings</a></li>
                     </ul>
                 </div>
@@ -188,6 +186,7 @@
             Copyright © 2019 - christuniversity.in
         </div>
     </footer>
-
-</body>
-</html>
+    <div class="top">
+        <a href="#home">Back to top</a>
+    </div>
+</body></html>
